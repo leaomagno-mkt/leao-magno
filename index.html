@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -62,9 +62,9 @@ header.scrolled{
 .nav{display:flex;align-items:center;justify-content:space-between;height:74px}
 .brand{display:flex;align-items:center;height:38px}
 .brand .logo{height:38px;width:auto;display:block}
-.logo-dark{display:none}
-html[data-theme="dark"] .logo-light{display:none}
-html[data-theme="dark"] .logo-dark{display:block}
+.brand .logo-dark{display:none}
+html[data-theme="dark"] .brand .logo-light{display:none}
+html[data-theme="dark"] .brand .logo-dark{display:block}
 footer .brand .logo{height:34px}
 .nav-links{display:flex;align-items:center;gap:34px}
 .nav-links a{font-size:14.5px;color:var(--ink-soft);font-weight:500;transition:color .25s}
@@ -460,6 +460,7 @@ footer{padding:60px 0 50px;border-top:1px solid var(--line)}
         <div class="sec-eyebrow">Sobre quem fundou a Leão Magno</div>
         <p>Passei anos dentro de agências cuidando da comunicação de profissionais de saúde. E nesse tempo vi de perto um problema que se repetia: gente excelente no que faz sendo tratada como só mais um número numa esteira de conteúdo.</p>
         <p>Criei a Leão Magno para fazer diferente. Para trabalhar perto, com poucos clientes, entendendo cada um com profundidade. Porque comunicação honesta aproxima, e esse segmento precisa exatamente disso.</p>
+        <p>A Leão Magno não nasceu com o propósito de ser a maior, mas sim de ser a melhor em cuidar com atenção humana de quem muda a vida de tanta gente.</p>
       </div>
       <div class="founder-photo">
         <div class="photo-frame">
